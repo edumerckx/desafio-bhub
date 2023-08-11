@@ -1,0 +1,20 @@
+site_name: Desafio BHub
+repo_url: https://github.com/edumerckx/desafio-bhub
+repo_name: edumerckx/desafio-bhub
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+
+markdown_extensions:
+  - attr_list
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+
+watch:
+  - src
