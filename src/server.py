@@ -14,9 +14,7 @@ if __name__ == '__main__' and validators.validate_varenvs():
     logger = get_logger()
 
     HTTP_PORT = os.getenv('HTTP_PORT')
-    DEBUG = (
-        False if str(os.getenv('ENVIRONMENT')).lower() == 'prod' else True
-    )
+    DEBUG = False if str(os.getenv('ENVIRONMENT')).lower() == 'prod' else True
 
     logger.info('Server running...')
     app.run(port=HTTP_PORT, debug=DEBUG)
