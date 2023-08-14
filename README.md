@@ -1,7 +1,7 @@
 # Desafio BHub
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=edumerckx_desafio-bhub&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=edumerckx_desafio-bhub)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=edumerckx_desafio-bhub&metric=coverage)](https://sonarcloud.io/summary/new_code?id=edumerckx_desafio-bhub)
+[![codecov](https://codecov.io/gh/edumerckx/desafio-bhub/branch/main/graph/badge.svg?token=JVZ84B8TN8)](https://codecov.io/gh/edumerckx/desafio-bhub)
 
 Aplicação referente ao desafio proposto pela BHub. O objetivo é ter um mecanismo capaz de processar diferentes regras com base no seu payload.
 
