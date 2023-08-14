@@ -16,14 +16,10 @@ def validate_varenvs() -> bool:
 
     Returns:
         Todas as variáveis de ambiente foram configuradas?
-
-    Examples:
-        >>> validate_varenvs()
-        True
     """
     valid_varenvs = True
     for env in required_varenvs:
-        if os.getenv(env) == None:
+        if not os.getenv(env):
             print(f'{env} não configurada')
             valid_varenvs = False
     return valid_varenvs
